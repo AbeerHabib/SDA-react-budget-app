@@ -1,0 +1,146 @@
+.container {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.form-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+form {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    width: 50%;
+    border-radius: 20px;
+    background-color: #4D4C7D;
+}
+
+form input{
+    width: 50%;
+    height: 5vh;
+    border-radius: 10px;
+    border-width: 0;
+}
+
+label {
+    font-size: 1rem;
+    margin-right: 1rem;
+}
+
+.source {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.amount {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.date {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.delete-btn {
+    background-color: #C70039;
+    color: #F5F5F5;
+    margin-top: 0;
+    margin-left: 2rem;
+}
+
+.delete-btn:hover {
+    background-color: #F5F5F5;
+    color: #C70039;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5rem;
+    width: 10rem;
+    height: 2.5rem;
+    border-radius: 10px;
+    border-width: 0;
+    background-color: #F99417;
+    color: #363062;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #FFB84C;
+    color: #363062;
+    transition: 0.5s;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.incomes-expenses-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.incomes-expenses-info div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.2rem;
+}
+
+.balance {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 3rem; margin-bottom: 3rem;
+}
+
+.transfer-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.target-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.info progress {
+    width: 40%;
+    height: 3rem;
+}
